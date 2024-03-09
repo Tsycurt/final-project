@@ -1,0 +1,34 @@
+.pagination span {
+  width: 2rem;
+  height: 2rem;
+  padding: 5px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--secondary-color);
+  color: var(--heading-color);
+  font-size: 1.1rem;
+  cursor: pointer;
+  font-weight: 700;
+}
+.sorting__input {
+  outline: none;
+  border-radius: 10px;
+  width: 20vw;
+  font-weight: 400;
+  height: 40px;
+  padding: 0 10px;
+  border: none;
+  background-color: #fafafa;
+  transition: all 0.3s ease;
+}
+
+.sorting__input:hover {
+  transform: scale(1.02);
+}
+
+.active__page {
+  background: var(--secondary-color);
+  color: #fff !important;
+}
